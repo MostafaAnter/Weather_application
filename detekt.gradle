@@ -1,0 +1,10 @@
+apply plugin: 'io.gitlab.arturbosch.detekt'
+
+detekt {
+    reports {
+        html {
+            enabled = true
+            destination = file("../destination.html")
+        }
+    }
+}

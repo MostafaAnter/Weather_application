@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Weather Application</string>
+    <string name="action_settings">Settings</string>
+
+    <!--    no data view -->
+    <string name="reload">Reload</string>
+    <string name="there_is_no_data_to_show">There is no data to show</string>
+    <string name="or_some_thing_wrong_happen">try to perform search query</string>
+</resources>

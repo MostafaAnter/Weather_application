@@ -1,0 +1,184 @@
+{
+  "project_info": {
+    "project_number": "866103385157",
+    "project_id": "s1challenge",
+    "storage_bucket": "s1challenge.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866103385157:android:f4bb8124214ae8c2cf972c",
+        "android_client_info": {
+          "package_name": "app.anter.android_s1_challenge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866103385157-o9tuih81hegilv3l01v96oe4m8b255sr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0ElozJ4L5XjDvKXrQwtea0MwdIFkgHao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866103385157-o9tuih81hegilv3l01v96oe4m8b255sr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866103385157:android:04e9a433e4668829cf972c",
+        "android_client_info": {
+          "package_name": "app.anter.androidtechnicaltask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866103385157-o9tuih81hegilv3l01v96oe4m8b255sr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0ElozJ4L5XjDvKXrQwtea0MwdIFkgHao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866103385157-o9tuih81hegilv3l01v96oe4m8b255sr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866103385157:android:99d614ca90de677acf972c",
+        "android_client_info": {
+          "package_name": "app.anter.currencyconversion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866103385157-o9tuih81hegilv3l01v96oe4m8b255sr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0ElozJ4L5XjDvKXrQwtea0MwdIFkgHao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866103385157-o9tuih81hegilv3l01v96oe4m8b255sr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866103385157:android:247f8596758969dbcf972c",
+        "android_client_info": {
+          "package_name": "app.anter.miniassignments"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866103385157-o9tuih81hegilv3l01v96oe4m8b255sr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0ElozJ4L5XjDvKXrQwtea0MwdIFkgHao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866103385157-o9tuih81hegilv3l01v96oe4m8b255sr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866103385157:android:3b19c6555e1d1ca4cf972c",
+        "android_client_info": {
+          "package_name": "app.anter.unioncooptask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866103385157-o9tuih81hegilv3l01v96oe4m8b255sr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0ElozJ4L5XjDvKXrQwtea0MwdIFkgHao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866103385157-o9tuih81hegilv3l01v96oe4m8b255sr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866103385157:android:638149e11eebfc8dcf972c",
+        "android_client_info": {
+          "package_name": "app.anter.weatherapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866103385157-o9tuih81hegilv3l01v96oe4m8b255sr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0ElozJ4L5XjDvKXrQwtea0MwdIFkgHao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866103385157-o9tuih81hegilv3l01v96oe4m8b255sr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

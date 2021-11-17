@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="model"
+            type="app.anter.core.remote.responses.currentWeatherSearch.CurrentWeatherSearchResponse" />
+
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:foreground="?selectableItemBackground"
+        app:cardCornerRadius="15dp">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:contentDescription="@null"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:normalImageUri="@{model.weather.get(0).icon}"/>
+                <View
+                    android:layout_width="8dp"
+                    android:layout_height="1dp"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@{model.weather.get(0).main}"
+                        android:textStyle="bold"
+                        style="@style/TextAppearance.AppCompat.Title"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@{model.weather.get(0).description}"
+                        style="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle"/>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:formatWeather="@{model.main.temp}"
+                android:textStyle="bold"
+                android:textSize="64sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:feelLike="@{model.main.temp}"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fab_margin"
+            style="@style/TextAppearance.AppCompat.Title"
+            app:cityName="@{model.name}"
+            app:date="@{model.dt}" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:orientation="horizontal">
+            <View
+                android:layout_width="3dp"
+                android:layout_marginEnd="5dp"
+                android:layout_height="match_parent"
+                android:background="@color/design_default_color_error"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@{`Humidity: ` + model.main.humidity + `%`}"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@{`Wind Speed: ` + model.wind.speed}"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@{`Cloudiness: ` + model.clouds.all + `%`}"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@{`Pressure: ` + model.main.pressure + ` hPa`}"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</layout>
+
+
