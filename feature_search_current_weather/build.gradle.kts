@@ -104,6 +104,11 @@ dependencies {
     implementation (AppDependencies.coroutine_core)
     //endregion
 
+    //region permission dispatcher
+    implementation (AppDependencies.permission_dispatcher)
+    kapt (AppDependencies.permission_dispatcher_kapt)
+    //endregion
+
     // coil image loader
     implementation(AppDependencies.coil)
 
