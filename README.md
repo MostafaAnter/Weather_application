@@ -1,6 +1,6 @@
 # Weather App - Android Technical Task #
 
-### [👉 Video Demo for this task on youtube 👈](https://youtu.be/_jTwuhQ3rqc)
+### [👉 Video Demo for this task on youtube 👈](https://youtu.be/S6ppgoK1-rM)
 
 ### Weather application
 - [x] Created android screen that has search bar on top.
