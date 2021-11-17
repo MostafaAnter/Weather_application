@@ -12,7 +12,7 @@
  <img src="https://github.com/MostafaAnter/Android_Technical_Task/blob/master/task.gif" width="300">
  
 ### Project Dependency Graph ###
-![](https://raw.githubusercontent.com/MostafaAnter/Android_Technical_Task/master/project.dot.png)
+![](https://raw.githubusercontent.com/MostafaAnter/Weather_application/master/project.dot.png)
 - App module depend on core + feature search : contains app start point it may be a splash screen.
 - Core module depend on nothing  : contains all sharable data among different modules.
 - Feature News Search Module depend on core : contain search feature related ui and other staffs.
