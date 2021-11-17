@@ -13,12 +13,13 @@
  
 ### Project Dependency Graph ###
 <img src="https://raw.githubusercontent.com/MostafaAnter/Weather_application/master/project.dot.png" width="300">
+
 ####App module
 depend on core + feature search current weather + library location tracker : contains app start point it may be a splash screen.
 ####Core module
 depend on nothing  : contains all sharable data among different modules.
-####Feature Search
-current weather Module depend on core + library location tracker : contain search weather feature related ui and other staffs.
+####Feature Search current weather Module
+depend on core + library location tracker : contain search weather feature related ui and other staffs.
 ####Library location tracker
 depend on core : contain code of getting current user location.
 
