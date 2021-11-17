@@ -3,25 +3,25 @@
 ### [👉 Video Demo for this task on youtube 👈](https://youtu.be/_jTwuhQ3rqc)
 
 ### Weather application
- - [x] Created android screen that has search bar on top.
- - [x] Detected current location of the customer.
- - [x] Using https://openweathermap.org/api. Current weather data web service to provide all the necessary data.
- - [x] All permissions is properly handled .
- - [x] There are no restrictions on use of external libraries.
- 
- <img src="https://github.com/MostafaAnter/Android_Technical_Task/blob/master/task.gif" width="300">
- 
-### Project Dependency Graph ###
-<img src="https://raw.githubusercontent.com/MostafaAnter/Weather_application/master/project.dot.png" width="300">
+- [x] Created android screen that has search bar on top.
+- [x] Detected current location of the customer.
+- [x] Using https://openweathermap.org/api. Current weather data web service to provide all the necessary data.
+- [x] All permissions is properly handled .
+- [x] There are no restrictions on use of external libraries.
 
-####App module
-depend on core + feature search current weather + library location tracker : contains app start point it may be a splash screen.
-####Core module
-depend on nothing  : contains all sharable data among different modules.
-####Feature Search current weather Module
-depend on core + library location tracker : contain search weather feature related ui and other staffs.
-####Library location tracker
-depend on core : contain code of getting current user location.
+ <img src="https://github.com/MostafaAnter/Android_Technical_Task/blob/master/task.gif" width="300">
+
+### Project Dependency Graph ###
+- App module
+  depend on core + feature search current weather + library location tracker : contains app start point it may be a splash screen.
+- Core module
+  depend on nothing  : contains all sharable data among different modules.
+- Feature Search current weather Module
+  depend on core + library location tracker : contain search weather feature related ui and other staffs.
+- Library location tracker
+  depend on core : contain code of getting current user location.
+
+<img src="https://raw.githubusercontent.com/MostafaAnter/Weather_application/master/project.dot.png" width="300">
 
 ### Use domain specific langauge ###
 - Make gradle scripts easy
@@ -38,15 +38,15 @@ depend on core : contain code of getting current user location.
 - Enables refactoring
 - Simplifies test automation
 
-### MVVM Inside each module 
-- each developer inside android team has a free to select suitable architecture for his module. 
+### MVVM Inside each module
+- each developer inside android team has a free to select suitable architecture for his module.
 
 ### Dependency injection with Hilt ###
 - Hilt is a dependency injection library for Android that reduces the boilerplate of doing manual dependency injection in our project.
 
 ### Enable AppCenter Pipelines ###
-- Support CI so i can check different stages like build and run unit test 
-before merge any branch to master branch.
+- Support CI so i can check different stages like build and run unit test
+  before merge any branch to master branch.
 
 ### Detekt ###
 - to make code style analysis and be sure follow best practice for writing kotlin code.
@@ -61,8 +61,8 @@ before merge any branch to master branch.
 ### Data binding
 - The Data Binding Library automatically generates the classes required to bind the views in the layout with your data objects.
 
-### leakCanary 
-- to detect memory leak through debugging process that will improve app performance as well. 
+### leakCanary
+- to detect memory leak through debugging process that will improve app performance as well.
 
 ### Truth For unit test its recommended from google
 - write unit test for [Search Validator Class](https://github.com/MostafaAnter/Weather_application/blob/master/feature_search_current_weather/src/test/java/app/anter/feature_search_current_weather/ui/usecase/SearchValidatorTest.kt)
