@@ -28,8 +28,7 @@ fun TextView.feelLike(temp: Double) {
 
 @BindingAdapter("cityName", "date", requireAll = false)
 fun TextView.cityAndDate(cityName: String, date: Long) {
-    val d = Date(date)
+    val cal = Calendar.getInstance()
     val sdf = SimpleDateFormat("MMM dd, yyyy")
-
-    text = "${cityName}, ${sdf.format(d)}"
+    text = "${cityName}, ${sdf.format(cal.getTime())}"
 }
