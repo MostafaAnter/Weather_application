@@ -12,11 +12,11 @@
  <img src="https://github.com/MostafaAnter/Android_Technical_Task/blob/master/task.gif" width="300">
  
 ### Project Dependency Graph ###
-![](https://raw.githubusercontent.com/MostafaAnter/Weather_application/master/project.dot.png)
-- App module depend on core + feature search : contains app start point it may be a splash screen.
+<img src="https://raw.githubusercontent.com/MostafaAnter/Weather_application/master/project.dot.png" width="300">
+- App module depend on core + feature search current weather + library location tracker : contains app start point it may be a splash screen.
 - Core module depend on nothing  : contains all sharable data among different modules.
-- Feature News Search Module depend on core : contain search feature related ui and other staffs.
-- Feature News Detail Module depend on core : contain news detail feature related ui.
+- Feature Search current weather Module depend on core + library location tracker : contain search weather feature related ui and other staffs.
+- Library location tracker depend on core : contain code of getting current user location.
 
 ### Use domain specific langauge ###
 - Make gradle scripts easy
@@ -39,9 +39,6 @@
 ### Dependency injection with Hilt ###
 - Hilt is a dependency injection library for Android that reduces the boilerplate of doing manual dependency injection in our project.
 
-### Load and display paged data ###
-- The Paging3 library provides powerful capabilities for loading and displaying paged data from a larger dataset.
-
 ### Enable AppCenter Pipelines ###
 - Support CI so i can check different stages like build and run unit test 
 before merge any branch to master branch.
@@ -63,8 +60,7 @@ before merge any branch to master branch.
 - to detect memory leak through debugging process that will improve app performance as well. 
 
 ### Truth For unit test its recommended from google
-- write unit test for [Search Validator Class](https://github.com/MostafaAnter/Android_Technical_Task/blob/master/feature_news_search/src/test/java/app/anter/feature_news_search/ui/usecase/SearchValidatorTest.kt)
-- write integrated test for ensure [Database work fine](https://github.com/MostafaAnter/Android_Technical_Task/blob/master/core/src/androidTest/java/app/anter/core/local/database/AppDatabaseTest.kt)
+- write unit test for [Search Validator Class](https://github.com/MostafaAnter/Weather_application/blob/master/feature_search_current_weather/src/test/java/app/anter/feature_search_current_weather/ui/usecase/SearchValidatorTest.kt)
 
 ### Reactive programming (Coroutines)
 Coroutines is Google recommended solution for asynchronous programming on Android. Noteworthy features include the following:
@@ -74,10 +70,11 @@ Coroutines is Google recommended solution for asynchronous programming on Androi
 - Built-in cancellation support: Cancellation is propagated automatically through the running coroutine hierarchy.
 - Jetpack integration: Many Jetpack libraries include extensions that provide full coroutines support. Some libraries also provide their own coroutine scope that you can use for structured concurrency.
 
-### Local database using Room ###
-- Compile-time verification of SQL queries.
-- Convenience annotations that minimize repetitive and error-prone boilerplate code.
-- Streamlined database migration paths.
+### PermissionsDispatcher ###
+PermissionsDispatcher provides a simple annotation-based API to handle runtime permissions.
+- Fully Kotlin/Java support
+- Special permissions support
+- 100% reflection-free
 
 
 ### License

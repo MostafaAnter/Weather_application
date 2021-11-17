@@ -12,7 +12,7 @@ import java.util.*
  */
 @BindingAdapter("formatWeather", requireAll = false)
 fun TextView.formatWeather(temp: Double) {
-    val df = DecimalFormat("#.##")
+    val df = DecimalFormat("#")
     val newTemp = temp - 273.15
 
     text = "${df.format(newTemp)}℃"
@@ -20,7 +20,7 @@ fun TextView.formatWeather(temp: Double) {
 
 @BindingAdapter("feelLike", requireAll = false)
 fun TextView.feelLike(temp: Double) {
-    val df = DecimalFormat("#.##")
+    val df = DecimalFormat("#")
     val newTemp = temp - 273.15
 
     text = "Feels Like ${df.format(newTemp)}℃"
