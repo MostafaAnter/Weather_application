@@ -9,7 +9,7 @@
 - [x] All permissions is properly handled .
 - [x] There are no restrictions on use of external libraries.
 
- <img src="https://github.com/MostafaAnter/Android_Technical_Task/blob/master/task.gif" width="300">
+ <img src="https://raw.githubusercontent.com/MostafaAnter/Weather_application/master/weather_gif_file.gif" width="300">
 
 ### Project Dependency Graph ###
 - App module
